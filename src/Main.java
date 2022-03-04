@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 100;
-        for (a = 100; a >= 1;  a--)
-            if (a % 4 == 0) {
-                System.out.println("Числа четные 4: " + a);
-            }
+        int i =0;
+        System.out.println(i % 4 == 0);
+        for (i = 100; i >= 1; i--)
+        {
+        System.out.println("Числа четные 4: " + i);
+        }
+
     }
 }
